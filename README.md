@@ -1,10 +1,10 @@
-# 🌊 Satellite Image Water Segmentation API (Flask + PyTorch)
+# Satellite Image Water Segmentation API (Flask + PyTorch)
 
 A Flask-based web API for segmenting **water bodies** in **12-channel satellite TIF images** using a **U-Net model with a ResNet50 encoder** trained on selected spectral bands.
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 - **Architecture**: U-Net  
 - **Encoder**: ResNet50 (ImageNet pre-trained)  
@@ -15,7 +15,7 @@ A Flask-based web API for segmenting **water bodies** in **12-channel satellite 
 
 ---
 
-## 🧾 Folder Structure
+## Folder Structure
 
 project/
 │
@@ -31,17 +31,17 @@ project/
 
 
 ---
-## ⚙️ Requirements
-flask
-torch
-torchvision
-opencv-python
-tifffile
-segmentation-models-pytorch
-albumentations
-numpy
+## Requirements
+flask-
+torch-
+torchvision-
+opencv-python-
+tifffile-
+segmentation-models-pytorch-
+albumentations-
+numpy-
 
-🛠️ How It Works
+## How It Works
 Upload a .tif image with 12 channels.
 
 Preprocess: Select 5 bands used during training (e.g. [3, 4, 8, 11, 12]).
@@ -52,7 +52,7 @@ Model Inference with PyTorch U-Net.
 
 Output binary water mask as .png.
 
-✅ Credits
+## Credits
 Model architecture: segmentation_models.pytorch
 
 Data: Sentinel-2 or equivalent multi-band satellite images
